@@ -12,6 +12,8 @@ spring:
   output:
     ansi:
       enabled: always
+  boot:
+    message: 'Hello, Employee Service'
 
 eureka:
   client:
