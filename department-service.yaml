@@ -13,7 +13,7 @@ spring:
     ansi:
       enabled: always
   boot:
-    message: 'Hello, Department Service Updated message'
+    message: 'Hello, Department Service. Testing the config server'
 
 eureka:
   client:
