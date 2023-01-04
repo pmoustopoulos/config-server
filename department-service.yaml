@@ -20,3 +20,6 @@ eureka:
   instance:
     preferIpAddress: true
 
+spring:
+  boot:
+    message: 'Hello, Department Service'
