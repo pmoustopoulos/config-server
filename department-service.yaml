@@ -13,7 +13,7 @@ spring:
     ansi:
       enabled: always
   boot:
-    message: 'Hello, Department Service. Testing the config server'
+    message: 'Hello, Department Service Spring Cloud Bus Demo'
 
 eureka:
   client:
