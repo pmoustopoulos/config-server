@@ -1,6 +1,6 @@
 spring:
   boot:
-    message: 'Load from Config Server: Hello from department service'
+    message: 'Load from Config Server: Updated message'
   datasource:
     url: jdbc:h2:file:./data/department-service/department-db;AUTO_SERVER=true
     username: root
