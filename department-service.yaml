@@ -1,6 +1,6 @@
 spring:
   boot:
-    message: 'Load from Config Server: Message of Department Service using Spring Cloud Bus'
+    message: 'Update message using Spring Cloud Bus (busrefresh)'
   datasource:
     url: jdbc:h2:file:./data/department-service/department-db;AUTO_SERVER=true
     username: root
