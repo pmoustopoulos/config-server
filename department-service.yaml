@@ -38,12 +38,6 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     
 
-springdoc:
-  swagger-ui:
-    use-root-path: true
-#    default-models-expand-depth: -1
-  version: '@springdoc-openapi-starter-webmvc-ui.version@'
-
 
 management:
   endpoints:
