@@ -23,7 +23,7 @@ spring:
       settings:
         web-allow-others: true
   rabbitmq:
-    host: rabbitmq
+    host: localhost
     port: 5672
     username: guest
     password: guest
@@ -32,7 +32,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://service-registry:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
